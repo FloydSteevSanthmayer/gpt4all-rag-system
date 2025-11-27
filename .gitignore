@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+
+# Streamlit / temp files
+.chroma_storage/
+chroma_storage/
+*.part
+
+# Model files (do NOT commit large models)
+*.gguf
+models/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PyCharm
+.idea/
+.vscode/
+
+# Secrets
+.env
+*.env
