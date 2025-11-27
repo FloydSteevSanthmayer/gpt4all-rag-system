@@ -1,13 +1,3 @@
-"""
-Streamlit RetrievalQA app (GPT4All + Chroma)
-- Upload a PDF (required)
-- Build / persist a Chroma vectorstore (per-uploaded-PDF)
-- Query the local LLM via RetrievalQA and show source snippets
-
-Before running, ensure these packages are installed in your project's venv:
-pip install -r requirements.txt
-"""
-
 import os
 import hashlib
 import tempfile
